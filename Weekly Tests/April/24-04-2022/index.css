@@ -1,0 +1,47 @@
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+ #users{
+    text-align: center;
+    font-size: medium;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+}
+.users{
+    border: 3px solid rgb(190, 152, 152);
+    color: rgb(8, 184, 253);
+    text-align: center;
+    font-size: medium;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+     
+#card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.details{
+    width: 30%;
+    box-shadow: 0 0 4px 3px rgb(248, 252, 4);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.firstname,.lastname,.email{
+     font-weight: bold;
+     text-transform: capitalize;
+     margin: 1em;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: blue;
+
+}
+.image{
+    width: 80%;
+}
